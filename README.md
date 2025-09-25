@@ -1,6 +1,6 @@
 # Humanities and Data Science
 
-## Aims
+## Aims (Provisional)
 The Humanities and Data Science group has been strengthening relationships and building collaborations at the intersection between data science and digital humanities since its creation in 2017. Raising the profile of data-driven humanities research at the national level and within the Turing, the group nourishes interdisciplinarity and promotes collaborations that not only seek research excellence but also strengthen links with national institutions and organisations, universities and The Alan Turing Institute. 
 
 
