@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Members
-permalink: /members/
 ---
 
 Beatrice Alex, University of Edinburgh
