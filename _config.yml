@@ -1,7 +1,11 @@
 title: Humanities & Data Science
-theme: minima
+theme: jekyll-theme-minimal
 
-header_pages:
-  - index.md
-  - about.md
-  - members.md
+
+nav:
+  - title: "Home"
+    url: "/"
+  - title: "Introduction"
+    url: "/index"
+  - title: "Members"
+    url: "/members"
