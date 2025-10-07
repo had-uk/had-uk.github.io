@@ -1,14 +1,16 @@
-
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="{{ '/assets/css/style.css' | '/' | relative1>
+    <link </head>
+  <body>
+    <header>
+      <h1>{{ {{ site.title }}</a></h1>
       <nav>
         <ul>
           {% for item in site.nav %}
-            <li><a item.url | relative_url }}{{ item.title }}</a></li>
+            <li><a href="{{ item.url |_url }}{{ item.title }}</a></li>
           {% endfor %}
         </ul>
       </nav>
@@ -19,4 +21,3 @@
     </main>
   </body>
 </html>
-
