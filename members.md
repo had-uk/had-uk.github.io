@@ -3,6 +3,8 @@ layout: default
 title: Members
 ---
 
+# Members
+
 Beatrice Alex, University of Edinburgh
 
 Anne Alexander, University of Cambridge
