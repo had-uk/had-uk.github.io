@@ -16,10 +16,14 @@ platforms:
     link: https://github.com/had-uk
 
 navigation:
-  - name: Readme
+  - name: Introduction
     link: ./index.html
     sublist:
       - name: Image
         link: ./index.html#small-image
+  - name: Aims
+    link: ./aims.html
+  - name: Talking Points
+    link: ./talking_points.html
   - name: Members
     link: ./members.html
