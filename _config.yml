@@ -1,7 +1,5 @@
 title: Humanities & Data Science
 theme: jekyll-theme-minimal
-
-
 nav:
   - title: "Home"
     url: "/"

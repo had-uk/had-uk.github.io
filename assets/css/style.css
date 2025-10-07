@@ -1,3 +1,9 @@
+body {
+  font-family: sans-serif;
+  max-width: 800px;
+  margin: auto;
+  padding: 2rem;
+}
 
 nav ul {
   list-style: none;
@@ -10,4 +16,3 @@ nav a {
   text-decoration: none;
   color: #0366d6;
 }
-

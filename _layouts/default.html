@@ -3,14 +3,15 @@
   <head>
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
-    <link </head>
+    {{ 
+  </head>
   <body>
     <header>
       <h1>{{ {{ site.title }}</a></h1>
       <nav>
         <ul>
           {% for item in site.nav %}
-            <li><a href="{{ item.url |_url }}{{ item.title }}</a></li>
+            <li>{{ item.url | relative_url }}{{ item.title }}</a></li>
           {% endfor %}
         </ul>
       </nav>
