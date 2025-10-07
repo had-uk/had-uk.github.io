@@ -1,10 +1,24 @@
 title: Humanities & Data Science
-theme: jekyll-theme-minimal
+logo: /assets/img/humanities_ds_jigsaw.jpg
+email: jl.liam.gao@gmail.com
+description: Humanities and Data Science working group in the UK.
+favicon: true
+color-scheme: auto
 
-nav:
-  - title: "Home"
-    url: "/"
-  - title: "Introduction"
-    url: "/index.md"
-  - title: "Members"
-    url: "/members.md"
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jemoji
+
+platforms:
+  - name: GitHub
+    icon: <i class="fa-brands fa-github"></i>
+    link: https://github.com/had-uk
+
+navigation:
+  - name: Introduction
+    link: ./index.md
+  - name: Members
+    link: ./members.md
+  - name: Aims
+    link: ./aims.md
