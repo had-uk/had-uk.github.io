@@ -25,5 +25,7 @@ navigation:
     link: ./aims.html
   - name: Talking Points
     link: ./talking_points.html
+  - name: Convenors
+    link: ./convenors.html
   - name: Members
     link: ./members.html

@@ -28,3 +28,15 @@ We draw on group members' varied experiences of supporting teaching at their ins
 
 **Members**: Bea Alex (Edinburgh), Anne Alexander (Cambridge), Giovanni Colavizza (Turing), James Cummings (Newcastle), Rachele De Felice (UCL), Fiona Douglas (Leeds), Leif Isaksen (Exeter), Ewan Jones (Cambridge), Anouk Lang (Edinburgh), Nora McGregor (BL), Thierry Poibeau (ENS), Pip Willcox (National Archives)
 
+## Digital humanities Data Study Groups
+
+This working group organised the Turing Data Study Group on Discovering topics and trends in the UK Government Web Archive, with The National Archives as challenge owner , 9-13 December, 2019, The Alan Turing Institute.
+
+## Data science and digital humanities white paper
+
+The group collaboratively edited white paper [“The challenges and prospects of the intersection of Humanities and Data Science”](https://www.turing.ac.uk/news/publications/challenges-and-prospects-intersection-humanities-and-data-science) also [presented at the Digital Humanities Congress 2022](https://www.dhi.ac.uk/dhc/2022/paper/221) which has received substantial attention, including Barbara McGillivray’s [interview with the Economist](https://www.economist.com/christmas-specials/2020/12/19/how-data-analysis-can-enrich-the-liberal-arts). The white paper is available as:
+
+McGillivray, Barbara et al. (2020). [The challenges and prospects of the intersection of humanities and data science: A white paper from The Alan Turing Institute](https://dx.doi.org/10.6084/m9.figshare.12732164). Figshare. dx.doi.org/10.6084/m9.figshare.12732164
+
+
+
