@@ -1,5 +1,5 @@
 title: Humanities & Data Science
-logo: /assets/img/humanities_ds_jigsaw.jpg
+logo: /assets/img/humanities_ds_jigsaw.png
 email: jl.liam.gao@gmail.com
 description: Humanities and Data Science working group in the UK.
 favicon: true
@@ -17,8 +17,8 @@ platforms:
 
 navigation:
   - name: Introduction
-    link: ./index.md
+    link: /index.md
   - name: Members
-    link: ./members.md
+    link: /members.md
   - name: Aims
-    link: ./aims.md
+    link: /aims.md
