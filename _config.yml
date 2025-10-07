@@ -1,9 +1,10 @@
 title: Humanities & Data Science
 theme: jekyll-theme-minimal
+
 nav:
   - title: "Home"
     url: "/"
   - title: "Introduction"
-    url: "/index"
+    url: "/index.md"
   - title: "Members"
-    url: "/members"
+    url: "/members.md"
