@@ -4,10 +4,6 @@ title: "Humanities and data science"
 hero_title: "Humanities and data science"
 hero_description: "An independent research group advancing computational approaches in humanities scholarship"
 breadcrumb:
-  - { text: "Home", url: "/" }
-  - { text: "Research", url: "#" }
-  - { text: "Interest Groups", url: "#" }
-  - { text: "Humanities and data science", url: "#", active: true }
 ---
 
 ## Introduction
