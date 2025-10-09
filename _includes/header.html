@@ -1,26 +1,22 @@
-{% if site.logo %}
-    <div class="header-title">
-        {% include header-title.html %}
+<header class="site-header header--regular header--white header--small">
+  <div class="header-container">
+    <div class="header-brand">
+      <a href="/" class="logo-link">
+        {% if site.logo %}
+        <img src="{{ site.logo | relative_url }}" alt="{{ site.title }}" class="site-logo">
+        {% endif %}
+
+      </a>
     </div>
-    <div class="header-title-mobile">
-        <section>
-        {% include header-title.html %}
-        </section>
-    </div>
-{% else %}
-    {% include header-title.html %}
-{% endif %}
 
-<p>{{ site.description | default: site.github.project_tagline }}</p>
+    <nav class="main-navigation" aria-label="Main navigation">
+      {%- include navigation.html -%}
+    </nav>
 
-{% unless site.hide_project_page %}
-    {% if site.github.is_project_page %}
-    <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub<br><small>{{ site.github.repository_nwo }}</small></a></p>
-    {% endif %}
-
-    {% if site.github.is_user_page %}
-    <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
-    {% endif %}
-{% endunless %}
-
-{% include sidebar.html %}
+    <button class="mobile-menu-toggle" aria-label="Toggle mobile menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+</header>

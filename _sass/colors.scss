@@ -34,14 +34,19 @@ hvr -> hover
 }
 
 @mixin colors {  
+  // Accent colors inspired by Turing Institute and University of Edinburgh
+  --clr-accent-primary: #00838f; // Teal/cyan (Turing inspired)
+  --clr-accent-secondary: #47126b; // Edinburgh purple
+  --clr-accent-light: #e8f4f8; // Light teal background
+  
   // buttons
-  --L-a-text-hover-change: 0.8;
-  --clr-a-text: hsl(200, 100%, var(--L-a-text));
-  --clr-a-text-hvr: hsl(200, 100%, calc(var(--L-a-text) * var(--L-a-text-hover-change)));
+  --L-a-text-hover-change: 0.75;
+  --clr-a-text: var(--clr-accent-primary);
+  --clr-a-text-hvr: #006670;
   --clr-buttons-main-bg: hsl(0, 0%, var(--L-buttons-main-bg));
   --clr-buttons-main-border: hsl(0, 0%, var(--L-buttons-main-border));
   --clr-buttons-main-text: hsl(0, 0%, var(--L-buttons-main-text));
-  --clr-buttons-main-text-hover: hsl(0, 6%, var(--L-buttons-main-text-hover));
+  --clr-buttons-main-text-hover: var(--clr-accent-primary);
   // headers + text
   --clr-h1-and-bold: hsl(0, 0%, var(--L-h1-and-bold));
   --clr-h2: hsl(0, 0%, var(--L-h2));
@@ -67,22 +72,22 @@ hvr -> hover
 
 @mixin light-colors {
   color-scheme: light;
-  // buttons
-  --L-a-text: 35%;
-  --L-buttons-main-bg: 96%;
-  --L-buttons-main-border: 88%;
-  --L-buttons-main-text: 40%;
-  --L-buttons-main-text-hover: 38%;
-  // headers + text
-  --L-h1-and-bold: 13%;
-  --L-h2: 22%;
-  --L-h-3-6: 29%;
-  --L-text-bold: 36%;
-  --L-text: 45%;
+  // buttons - Using Turing/Edinburgh inspired colors
+  --L-a-text: 40%;
+  --L-buttons-main-bg: 98%;
+  --L-buttons-main-border: 85%;
+  --L-buttons-main-text: 35%;
+  --L-buttons-main-text-hover: 30%;
+  // headers + text - Stronger contrast for readability
+  --L-h1-and-bold: 10%;
+  --L-h2: 18%;
+  --L-h-3-6: 25%;
+  --L-text-bold: 30%;
+  --L-text: 35%;
   // code blocks
-  --L-code-text: 20%;
-  --L-code-bg: 97%;
-  --L-code-border: 90%;
+  --L-code-text: 15%;
+  --L-code-bg: 98%;
+  --L-code-border: 88%;
   --L-code-bold-text: 0%;
   //kbd these are keyboard shortcuts eg <kbd>CMD+R</kbd>
   --L-kbd-bg: 98%;
@@ -91,10 +96,10 @@ hvr -> hover
   --L-kbd-text: 30%;
   // miscellaneous
   --L-bg: 100%;
-  --L-splitter-blockquote-and-section: 90%;
+  --L-splitter-blockquote-and-section: 88%;
   --L-small-in-a: 47%;
-  --L-table-header-and-dt: 27%;
-  --L-card-bg: 97%;
+  --L-table-header-and-dt: 22%;
+  --L-card-bg: 98%;
 }
 
 @mixin dark-colors {

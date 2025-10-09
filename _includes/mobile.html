@@ -1,27 +1,26 @@
-<div class="link-wrapper-mobile">
-    {% if site.platforms %}
-    <ul class="link">
-    {%- for platform in site.platforms %}
-    <nobr><a href="{{ platform.link }}" rel="me">{{ platform.icon }}&nbsp;{{ platform.name }}</a>
-    {%- unless forloop.last %}<span style="margin-left: 6px;"></span>{% endunless %}</nobr>
-    {%- endfor %}
+<nav class="mobile-menu" aria-label="Mobile navigation">
+  <div class="mobile-menu-content">
+    <ul class="mobile-nav-links">
+      <li><a href="/" {% if page.url == "/" %}class="active"{% endif %}>Home</a></li>
+      <li><a href="/members" {% if page.url == "/members.html" or page.url == "/members/" %}class="active"{% endif %}>Members</a></li>
+      <li><a href="/aims" {% if page.url == "/aims.html" or page.url == "/aims/" %}class="active"{% endif %}>Aims</a></li>
+      <li><a href="/convenors" {% if page.url == "/convenors.html" or page.url == "/convenors/" %}class="active"{% endif %}>Convenors</a></li>
     </ul>
-    {% endif %}
 
-    {% if site.navigation %}
-    <h3 class="sidebar-h3">Contents:</h3>
-    <ul class="content">
-    {%- for item in site.navigation %}
-      <li><a href="{{ item.link }}">{{ item.name }}</a>
-          {% if item.sublist %}
-          <ul class="sublist">
-              {%- for subitem in item.sublist %}
-              <li><a href="{{ subitem.link }}">{{ subitem.name }}</a></li>
-              {%- endfor %}
-          </ul>
-          {% endif %}
-      </li>
-    {%- endfor %}
-    </ul>
+    {% if site.platforms %}
+    <div class="mobile-platforms">
+      <h3>Connect with us</h3>
+      <ul class="mobile-platform-links">
+        {%- for platform in site.platforms %}
+        <li>
+          <a href="{{ platform.link }}" target="_blank" rel="noopener noreferrer">
+            {{ platform.icon }} {{ platform.name }}
+          </a>
+        </li>
+        {%- endfor %}
+      </ul>
+    </div>
     {% endif %}
+  </div>
+</nav>
 </div>

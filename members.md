@@ -1,74 +1,58 @@
 ---
 layout: default
-title: Members
+title: "Group Members"
+hero_title: "Group Members"
+hero_description: "Meet the researchers advancing computational approaches in humanities scholarship"
+breadcrumb:
+  - { text: "Home", url: "/" }
+  - { text: "Members", url: "/members", active: true }
 ---
 
-# Members
+## Our Research Community
 
-Beatrice Alex, University of Edinburgh
+This independent research group brings together scholars from diverse institutions who are pioneering the application of computational methods to humanities research.
 
-Anne Alexander, University of Cambridge
+<div class="member-grid">
+{% for member in site.data.members %}
+  {% if member.url %}
+  <a href="{{ member.url }}" class="member-card member-card-link" target="_blank" rel="noopener noreferrer">
+    <div class="member-avatar">
+      {% if member.image %}
+      <img src="{{ member.image }}" alt="{{ member.name }}" class="member-image">
+      {% else %}
+      <div class="avatar-placeholder" data-name="{{ member.name }}"></div>
+      {% endif %}
+    </div>
+    <h3 class="member-name">{{ member.name }}</h3>
+    <p class="member-institution">{{ member.institution }}</p>
+  </a>
+  {% else %}
+  <div class="member-card">
+    <div class="member-avatar">
+      {% if member.image %}
+      <img src="{{ member.image }}" alt="{{ member.name }}" class="member-image">
+      {% else %}
+      <div class="avatar-placeholder" data-name="{{ member.name }}"></div>
+      {% endif %}
+    </div>
+    <h3 class="member-name">{{ member.name }}</h3>
+    <p class="member-institution">{{ member.institution }}</p>
+  </div>
+  {% endif %}
+{% endfor %}
+</div>
 
-Marc Alexander, University of Glasgow
-
-Dora Alexopoulou, University of Cambridge 
-
-Sarah Ames, National Library of Scotland
-
-Emmanouil Benetos, Queen Mary University of London
-
-Kaspar Beelen, School of Advanced Studies
-
-Emily Bell, University of Leeds
-
-James Cummings, Newcastle University
-
-David De Roure, University of Oxford
-
-James Freeman, University of Bristol
-
-Liam Gao, Imperial College London
-
-Gabriella Giannachi, University of Exeter
-
-Megan Gooch, University of Oxford
-
-Eirini Goudarouli, The National Archives UK
-
-Giulia Grisot, University of Manchester
-
-Stuart James, University of Durham
-
-Alexandra Karamitrou, University of Southampton
-
-Andrea Kocsis, University of Edinburgh
-
-Fabrizio Nevola, University of Exeter
-
-Nicola Osborne, University of Edinburgh
-
-Yipeng Qin, Cardiff University
-
-Mia Ridge, British Library
-
-Dibyadyuti Roy, University of Leeds
-
-Charalampos Saitis, Queen Mary University of London
-
-Rachel Saunders, University of Nottingham
-
-Fraser Sturt, University of Southampton
-
-Joanna Taylor, University of Manchester
-
-Melissa Terras, University of Edinburgh 
-
-Charlotte Tupman, University of Exeter
-
-Ioannis Votsis, Northeastern University London
-
-Daniel Wilson, The Alan Turing Institute
-
-Elizabeth Williamson, University of Exeter
-
-Jane Winters, School of Advanced Study, University of London
+<script>
+// Generate initials for avatar placeholders
+document.addEventListener('DOMContentLoaded', function() {
+  const placeholders = document.querySelectorAll('.avatar-placeholder[data-name]');
+  placeholders.forEach(function(placeholder) {
+    const name = placeholder.getAttribute('data-name');
+    const initials = name.split(' ')
+      .map(word => word.charAt(0).toUpperCase())
+      .slice(0, 2)
+      .join('');
+    placeholder.textContent = initials;
+  });
+});
+</script>
