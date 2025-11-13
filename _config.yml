@@ -29,3 +29,5 @@ navigation:
     link: ./convenors.html
   - name: Members
     link: ./members.html
+  - name: Contact
+    link: ./contact.html
