@@ -13,7 +13,8 @@ breadcrumb:
 This independent research group brings together scholars from diverse institutions who are pioneering the application of computational methods to humanities research.
 
 <div class="member-grid">
-{% for member in site.data.members %}
+{% assign sorted_members = site.data.members | sort: "name" %}
+{% for member in sorted_members %}
   {% if member.url %}
   <a href="{{ member.url }}" class="member-card member-card-link" target="_blank" rel="noopener noreferrer">
     <div class="member-avatar">
