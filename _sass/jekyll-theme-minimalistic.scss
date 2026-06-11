@@ -395,9 +395,6 @@ a {
   max-width: 1200px;
   margin: 0 auto;
   padding: 40px 30px;
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  gap: 60px;
   
   @media (max-width: 1024px) {
     grid-template-columns: 1fr;

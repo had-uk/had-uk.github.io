@@ -25,40 +25,26 @@ We achieve our aims through:
 - **Knowledge sharing** across diverse perspectives and methods
 - **Community building** among experts from digital humanities, historical data research, information science, computer science, natural language processing, and related disciplines
 
-## Group Leadership
+### Background
+This independent research group builds on the legacy of the <a href="https://www.turing.ac.uk/research/interest-groups/humanities-and-data-science"> Alan Turing Institute's Humanities and Data Science special interest group</a>, continuing to advance computational approaches in humanities scholarship.
 
-Our group is led by experienced researchers who bring expertise from across the humanities and data science spectrum:
+For example in the past the group collaboratively wrote a white paper “The challenges and prospects of the intersection of Humanities and Data Science” also presented at the Digital Humanities Congress 2022 which has received substantial attention, with Barbara McGillivray leading and co-authors: Beatrice Alex, Sarah Ames, Guyda Armstrong, David Beavan, Arianna Ciula, Giovanni Colavizza, James Cummings, David De Roure, Adam Farquhar, Simon Hengchen, Anouk Lang, James Loxley, Eirini Goudarouli, Federico Nanni, Andrea Nini, Julianne Nyhan, Nicola Osborne, Thierry Poibeau, Mia Ridge, Sonia Ranade, James Smithies, Melissa Terras, Andreas Vlachidis and Pip Willcox. Which has received substantial attention, including Barbara McGillivray’s interview with the Economist. The white paper is available as:
 
-<div class="convenor-grid">
-  <div class="member-card convenor-card">
-    <div class="convenor-avatar">
-      <img src="/assets/img/members/barbara-mcgillivray.jpg" alt="Barbara McGillivray" class="member-image">
-    </div>
-    <div class="convenor-info">
-      <h3 class="member-name">Barbara McGillivray</h3>
-      <p class="member-institution">King's College London</p>
-      <p class="convenor-role">Co-convenor</p>
-    </div>
-  </div>
-  
-  <div class="member-card convenor-card">
-    <div class="convenor-avatar">
-      <img src="/assets/img/members/andreas-vlachidis.jpg" alt="Andreas Vlachidis" class="member-image">
-    </div>
-    <div class="convenor-info">
-      <h3 class="member-name">Andreas Vlachidis</h3>
-      <p class="member-institution">University College London</p>
-      <p class="convenor-role">Co-convenor</p>
-    </div>
-  </div>
-</div>
+McGillivray, Beatrice Alex, Sarah Ames, Guyda Armstrong, David Beavan, Arianna Ciula, Giovanni Colavizza, James Cummings, David De Roure, Adam Farquhar, Simon Hengchen, Anouk Lang, James Loxley, Eirini Goudarouli, Federico Nanni, Andrea Nini, Julianne Nyhan, Nicola Osborne, Thierry Poibeau, Mia Ridge, Sonia Ranade, James Smithies, Melissa Terras, Andreas Vlachidis, Pip Willcox (2020). The challenges and prospects of the intersection of humanities and data science: A white paper from The Alan Turing Institute. Figshare. dx.doi.org/10.6084/m9.figshare.12732164
+
+## The Group
+Our group includes experienced researchers who bring expertise from across the humanities and data science spectrum. You will also find us in communities working on Digital Humanities, Computational Humanities, Digital Cultural Heritage, AI in Libraries, Archives, and Museums, and other related groups.
+
+[**Explore Our Members →**](/members){: .btn .btn-primary}
+
+We are transitioning to a new leadership team, our thanks to Barbara McGillivray and Andreas Vlachidis for their dedication and contributions as co-convenors up to this point. 
 
 ## Get Involved
 
 Interested in joining our community? We welcome researchers, academics, and practitioners working at the intersection of humanities and data science. 
 
-[**Explore Our Members →**](/members){: .btn .btn-primary}
+[**Join our moderated mailing list →**](https://www.jiscmail.ac.uk/cgi-bin/webadmin?A0=TURINGINS-HUMANITIES-DATASCIENCE){: .btn .btn-secondary}
 
 ---
 
-*This independent research group builds on the legacy of the Alan Turing Institute's Humanities and Data Science special interest group, continuing to advance computational approaches in humanities scholarship.*
+
